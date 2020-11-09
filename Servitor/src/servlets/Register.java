@@ -27,6 +27,7 @@ public class Register extends HttpServlet {
 		try {
 			// take the parameter from the form 
 			String email=request.getParameter("email");
+			System.out.println(email+"--------------------------------------------------");
 			String password=request.getParameter("password");
 			String name=request.getParameter("name");
 			String phone=request.getParameter("phone");

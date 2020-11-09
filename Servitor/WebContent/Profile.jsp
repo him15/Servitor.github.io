@@ -84,7 +84,7 @@
 				<div class="col-lg-6">
 					<div class="panel panel-default">
 						<div class="panel-heading text-center">
-							<h3>Search Services</h3>
+							<h3>Search Employers!</h3>
 						</div>
 						<div class="panel-body">
 							<form action="PeopleSearchPro.jsp" method='post' class="form-horizontal">

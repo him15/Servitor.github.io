@@ -6,7 +6,7 @@
 <meta charset="utf-8" >
 <meta http-equiv="X-UA-Compatible" content="IE=edge" >
 <meta name="viewport" content="width=device-width, initial-scale=1" >
-<title>Gym Fitness</title>
+<title>Servitor</title>
 <link href="css/bootstrap.min.css" rel="stylesheet" />
 <link href="css/custom.css" rel="stylesheet" />	
 <link href="datetimepicker/css/datetimepicker.min.css" rel="stylesheet"  />
@@ -16,7 +16,7 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
 		<div class="container">
 			<div class="navbar-header">
-					  <a class="navbar-brand" href="#">Gym Fitness</a>
+					  <a class="navbar-brand" href="#">Servitor</a>
 			</div>
 					<ul class="nav navbar-nav">
 					   <!--<li class="active"><a href="#">Home</a></li>   --> 
@@ -25,8 +25,8 @@
 					<li><a href="index.jsp">Home</a></li>
 					  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-log-in"></span> Login <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-						  <li><a href="#"> Admin Login</a></li>
-						  <li><a href="#"> Trainee Login</a></li>
+						  <li><a href="AdminLogin.jsp"> Admin Login</a></li>
+						  <li><a href="TrainerLoginRegister.jsp"> Trainee Login</a></li>
 						</ul>
 					  </li>
 					</ul>
@@ -35,7 +35,7 @@
 	<div class="container">
 		<div class="panel panel-default text center">
 			<div class="panel-heading text-center">
-				<h2>Trainer Login/Register</h2>
+				<h2>Login/Register for Jobs</h2>
 			</div>
 		</div>
 	</div>
@@ -56,7 +56,7 @@
 							<h3>Registration</h3>
 						</div>
 						<div class="panel-body">
-							<form action="Register" method='post' data-toggle="validator" enctype='multipart/form-data'  class="form-horizontal">
+							<form action='TrainersRegister' method='post' data-toggle="validator" enctype='multipart/form-data'  class="form-horizontal">
 								<div class="form-group">
 									<label for="email" class="col-lg-3 control-label">Email:</label>
 									<div class="col-lg-9">
@@ -66,7 +66,7 @@
 								<div class="form-group">
 									<label for="name" class="col-lg-3 control-label">Name:</label>
 									<div class="col-lg-9">
-										<input type="text" name="name" class="form-control" pattern="^[_A-Z a-z]{1,}$" id="name" placeholder="Enter your name" required/>
+										<input type="text" name="name" class="form-control"  id="name" placeholder="Enter your name" required/>
 									</div>
 								</div><!--end form group-->
 								<div class="form-group">
@@ -83,9 +83,9 @@
 									</div>
 								</div><!--end form group-->
 								<div class="form-group">
-									<label for="dob" class="col-lg-3 control-label">Date of Birth:</label>
+									<label for="dob" class="col-lg-3 control-label">Age :</label>
 									<div class="col-lg-9">
-										<input type="text" name="dob" class="form-control" id="dob" placeholder="dd/MM/YYYY" required />
+										<input type="text" name="age" class="form-control" id="age" placeholder="Enter your Age" required />
 									
 									</div>
 								</div><!--end form group-->
@@ -111,12 +111,47 @@
 									</div>
 								</div><!--end form group-->
 								<div class="form-group">
+									<label for="area" class="col-lg-3 control-label">Experience :</label>
+									<div class="col-lg-9">
+										
+										<input type="text" name="experience" class="form-control" id="area" placeholder="Experience in month" required/>
+									</div>
+								</div><!--end form group-->
+								
+								<div class="form-group">
+									<label for="city" class="col-lg-3 control-label">Category Job:</label>
+										<div class="col-lg-9">
+                                                           <select name="category" class="form-control" id='secondlist'>
+															<option>Cook</option>
+															<option>Maid</option>
+															<option>Servant</option>
+															<option>Driver</option>
+															<option>Baby Sitter</option>
+															</select>
+									</div>
+								</div>
+								
+								<div class="form-group">
 									<label for="photo" class="col-lg-3 control-label">Photo:</label>
 									<div class="col-lg-9">
 										<input type="file" name="photo" class="form-control" id="photo" />
 										
 									</div>
 								</div><!--end form group-->
+								<div class="form-group">
+									<label for="photo" class="col-lg-3 control-label">Aadhar Card :</label>
+									<div class="col-lg-9">
+										<input type="file" name="aadhar" class="form-control" id="photo" />
+										
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="photo" class="col-lg-3 control-label">Ration Card :</label>
+									<div class="col-lg-9">
+										<input type="file" name="Ration" class="form-control" id="photo" />
+										
+									</div>
+								</div>
 								<div class="form-group">
 									<label for="pass" class="col-lg-3 control-label">Password:</label>
 									<div class="col-lg-9">
@@ -138,7 +173,7 @@
 							<h3>Login</h3>
 						</div>
 						<div class="panel-body">
-							<form action="Login.jsp" data-toggle="validator" class="form-horizontal">
+							<form action="TrainerLogin" data-toggle="validator" class="form-horizontal">
 								<div class="form-group">
 									<label for="email" class="col-lg-3 control-label">Email:</label>
 									<div class="col-lg-9">

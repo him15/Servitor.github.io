@@ -27,7 +27,7 @@ public class AdminLogin extends HttpServlet {
 			if(admin!=null) {
 				HttpSession session=request.getSession();
 				session.setAttribute("adminDetails",admin);
-				response.sendRedirect("AdminHome.jsp");
+				response.sendRedirect("AdminHome.jsp?status=pending");
 			}else {
 				HttpSession session=request.getSession();
 				session.setAttribute("message","ID/Password wrong!");

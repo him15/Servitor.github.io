@@ -709,26 +709,34 @@ blockquote::after{
 			<div class="col-lg-6 col-md-6">
 				<h2>About Us</h2>
 				<div class="about-content">
-					Our company is focused on making React UIs development easier, better, and accessible to more people. We build open source and commercial tools used by many hundreds of thousands of developers in production. We're proud not only of the products we make, but also the community and partnerships we've cultivated with other developers and companies.
+					Servitor is one of the leading service provider for Maid, Cook, Babysitter, Driver, Servant, Gardener etc. We help customers 
+					and businesses to hire trusted professionals for all their service needs. 
+					We are staffed with young, passionate people working to make a difference in the lives of people by
+					 catering to their housekeeping service needs. We aim to solve the customer pain by keeping trust, 
+					 safety and quality factors in mind. All the services are performed by well-trained professional’s
+					 domestic workers which gives 100 percent customer satisfaction to our valuable customers.
+					
 				</div>
 				<button type="button" class="btn btn-primary">Read More>></button>
 			</div>
 			<div class="col-lg-6 col-md-6 skills-bar">
-				<p>Html</p>
+				<p>Cook</p>
 				<div class="progress">
-					<div class="progress-bar" style="width: 80%;">80%</div>
+					<div class="progress-bar" style="width: 60%;">40%</div>
 				</div>
-				<p>Css</p>
+				<p>Driver</p>
 				<div class="progress">
-					<div class="progress-bar" style="width: 70%;">70%</div>
+					<div class="progress-bar" style="width: 35%;">20%</div>
 				</div>
-				<p>Java Script</p>
+				
+				<p>Maid & Servant</p>
 				<div class="progress">
-					<div class="progress-bar" style="width: 40%;">40%</div>
+					<div class="progress-bar" style="width: 50%;">30%</div>
 				</div>
-				<p>Bootstrap</p>
+				
+				<p>other</p>
 				<div class="progress">
-					<div class="progress-bar" style="width: 60%;">60%</div>
+					<div class="progress-bar" style="width: 20%;">10%</div>
 				</div>
 			</div>
 		</div>
