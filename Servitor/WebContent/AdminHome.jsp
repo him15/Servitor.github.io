@@ -23,7 +23,6 @@
 	HashMap admin=(HashMap)session.getAttribute("adminDetails");
 	if(admin!=null){
 		String status=request.getParameter("status");
-		System.out.println(status+"jhjbkjbbk");
 %>
  
   <body data-spy="scroll" data-target="#my-navbar">
@@ -53,11 +52,11 @@
 		</div>
 	</div>
 	<hr>
-	<div style="margin-top : -70px;">
+	<div style="margin-top : -40px;">
 	
-	<a href="AdminHome.jsp?status=pending">Pending Trainers  </a>&ensp;
-		<a href="AdminHome.jsp?status=Accepted">Accepted Trainers </a>&ensp;
-		<a href="AdminHome.jsp?status=Rejected">Rejected Trainers</a>
+	<a href="AdminHome.jsp?status=pending" class="btn btn-primary" style="margin-left:60px;" >Pending Employers  </a>&ensp;
+		<a href="AdminHome.jsp?status=Accepted" class="btn btn-success">Accepted Employers </a>&ensp;
+		<a href="AdminHome.jsp?status=Rejected" class="btn btn-danger">Rejected Employers</a>
 <!-- 	<form action="AdminHome.jsp?status=pending" class="form-horizontal" style="margin-left : 120px;"> -->
 <!--                     <div class="col-lg-1"> -->
 <!--                             <div class="form-group"> -->
@@ -107,7 +106,7 @@
 				<div class="col-lg-3">
                                     <div class="form-group">
                                     </br>
-		                                    <label for="email" class="control-label">Name: <font color="grey"><%=trainer.get("name") %></font></label><br>
+		                                    <label for="email" class="control-label">Name: <font color="grey"><%=trainer.get("email") %></font></label><br>
 		                                     <label for="gender" class="control-label">Gender: <font color="grey"><%=trainer.get("gender") %></font></label><br>
 		                                     <label for="phone" class="control-label">Phone: <font color="grey"><%=trainer.get("phone") %></font></label><br>
 		                                     <label for="category" class="control-label">Job : <font color="grey"><%=trainer.get("job") %></font></label><br>
@@ -116,8 +115,8 @@
 				<div class="col-lg-4">
                                     <div class="form-group">
                                     </br>
-                                            <label for="name" class="control-label">Working area :<font color="grey"><%=trainer.get("area") %></font></label><br>
-                                            <label for="address" class="control-label">Address: <font color="grey"><%=trainer.get("address") %></font></label><br>
+                                            <label for="name" class="control-label">Working area :<font color="grey"><%=trainer.get("name") %></font></label><br>
+                                            <label for="address" class="control-label">Address: <font color="grey"><%=trainer.get("area") %>,<%=trainer.get("city") %></font></label><br>
 											<label for="age" class="control-label">Age : <font color="grey"><%=trainer.get("age") %></font></label><br>
 											
 											<%

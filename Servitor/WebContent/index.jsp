@@ -801,19 +801,21 @@ blockquote::after{
 			<div class="single-price">
 				<div class="price-head">
 					<h2>Cook</h2>
-					<p>1000/<span>Month</span></p>
+					<p>3000-4000/<span>Month</span></p>
 				</div>
 				<div class="price-content">
 					<ul>
-						<li><i class="fa fa-check-circle" ></i>5 gb Space</li>
-						<li><i class="fa fa-check-circle" ></i>10 gb Bandwidth</li>
-						<li><i class="fa fa-times-circle"></i>15 E-mail account</li>
-						<li><i class="fa fa-times-circle"></i>Unlimited Domain</li>
-						<li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+						<li><i class="fa fa-check-circle" ></i>No Holidays</li>
+						<li><i class="fa fa-check-circle" ></i>Best Service</li>
+						<li><i class="fa fa-check-circle" ></i>2 days Demo</li>
+						
+						<li><i class="fa fa-check-circle" ></i>Affordable</li>
+						
+						<li><i class="fa fa-check-circle" ></i>Secure</li>
 					</ul>
 				</div>
 				<div class="price-button">
-					<a  class="buy-btn" href="#">Join Free</a>
+					<a  class="buy-btn" href="#">Join us</a>
 				</div>
 			</div>
 		</div>
@@ -821,19 +823,21 @@ blockquote::after{
 			<div class="single-price">
 				<div class="price-head">
 					<h2>Maid/Servant</h2>
-					<p>$0/<span>Month</span></p>
+					<p>6000-8000/<span>Month</span></p>
 				</div>
 				<div class="price-content">
 					<ul>
-						<li><i class="fa fa-check-circle" ></i>5 gb Space</li>
-						<li><i class="fa fa-check-circle" ></i>10 gb Bandwidth</li>
-						<li><i class="fa fa-times-circle"></i>15 E-mail account</li>
-						<li><i class="fa fa-times-circle"></i>Unlimited Domain</li>
-						<li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+							<li><i class="fa fa-check-circle" ></i>No Holidays</li>
+						<li><i class="fa fa-check-circle" ></i>Best Service</li>
+						<li><i class="fa fa-check-circle" ></i>2 days Demo</li>
+						
+						<li><i class="fa fa-check-circle" ></i>Affordable</li>
+						
+						<li><i class="fa fa-check-circle" ></i>Secure</li>
 					</ul>
 				</div>
 				<div class="price-button">
-					<a  class="buy-btn" href="#">Join Free</a>
+					<a  class="buy-btn" href="#">Join us</a>
 				</div>
 			</div>
 		</div>
@@ -841,19 +845,21 @@ blockquote::after{
 			<div class="single-price">
 				<div class="price-head">
 					<h2>Driver</h2>
-					<p>$0/<span>Month</span></p>
+					<p>4000-6000/<span>Month</span></p>
 				</div>
 				<div class="price-content">
 					<ul>
-						<li><i class="fa fa-check-circle" ></i>5 gb Space</li>
-						<li><i class="fa fa-check-circle" ></i>10 gb Bandwidth</li>
-						<li><i class="fa fa-times-circle"></i>15 E-mail account</li>
-						<li><i class="fa fa-times-circle"></i>Unlimited Domain</li>
-						<li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+							<li><i class="fa fa-check-circle" ></i>No Holidays</li>
+						<li><i class="fa fa-check-circle" ></i>Best Service</li>
+						<li><i class="fa fa-check-circle" ></i>2 days Demo</li>
+						
+						<li><i class="fa fa-check-circle" ></i>Affordable</li>
+						
+						<li><i class="fa fa-check-circle" ></i>Secure</li>
 					</ul>
 				</div>
 				<div class="price-button">
-					<a  class="buy-btn" href="#">Join Free</a>
+					<a  class="buy-btn" href="#">Join us</a>
 				</div>
 			</div>
 		</div>
@@ -861,19 +867,21 @@ blockquote::after{
 			<div class="single-price">
 				<div class="price-head">
 					<h2>Baby Sitter</h2>
-					<p>$0/<span>Month</span></p>
+					<p>2000-3000/<span>Month</span></p>
 				</div>
 				<div class="price-content">
 					<ul>
-						<li><i class="fa fa-check-circle" ></i>5 gb Space</li>
-						<li><i class="fa fa-check-circle" ></i>10 gb Bandwidth</li>
-						<li><i class="fa fa-times-circle"></i>15 E-mail account</li>
-						<li><i class="fa fa-times-circle"></i>Unlimited Domain</li>
-						<li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+							<li><i class="fa fa-check-circle" ></i>No Holidays</li>
+						<li><i class="fa fa-check-circle" ></i>Best Service</li>
+						<li><i class="fa fa-check-circle" ></i>2 days Demo</li>
+						
+						<li><i class="fa fa-check-circle" ></i>Affordable</li>
+						
+						<li><i class="fa fa-check-circle" ></i>Secure</li>
 					</ul>
 				</div>
 				<div class="price-button">
-					<a  class="buy-btn" href="#">Join Free</a>
+					<a  class="buy-btn" href="#">Join us</a>
 				</div>
 			</div>
 		</div>
